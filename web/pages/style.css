@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  /* overflow-y: auto; 全体スクロール */
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+
+.page {
+  width: 80%;
+  margin:auto;
+  background-color: white;
+}
+
+/* 題名 */
+.title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.rank-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* 説明 */
+.text {
+  width: 50%;
+}
+
+/* 写真 */
+.photo {
+  width: 300px;   /* 好きな大きさに調整 */
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+}
+/* 大きい説明エリア */
+.big-area {
+  margin-bottom: 40px;
+  min-height: 200px;
+}
+
+/* ボタン */
+.next-button {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  padding: 5px 25px;
+}
