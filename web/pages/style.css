@@ -54,3 +54,20 @@ body {
 button {
   padding: 5px 25px;
 }
+
+.button2 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.big-area{
+  font-size: 18px;
+}
+
+.photo2 {
+  width: 600px;   /* 好きな大きさに調整 */
+}
+.photo3 {
+  width: 400px;   /* 好きな大きさに調整 */
+}
